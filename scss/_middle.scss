@@ -1,0 +1,88 @@
+.middle {
+    display: flex;
+    color: #ffffff;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle h3 {
+    font-size: 34px;
+    margin: 0px;
+}
+
+.middle h1 {
+    font-size: 48px;
+    margin: 0px;
+}
+
+.middle p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.middle button { 
+    font-size: 14px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #ffffff;
+    background: #998675;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+button:active,
+button:focus {
+    outline: none;
+    cursor: pointer;
+}
+
+.middle button:hover {
+    background: #665546;
+}
+
+
+.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-wrapper {
+    display: flex;
+    position: relative;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.container-sec {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: center;  
+}
+
+@media screen and (max-width: 530px) {
+    .text-center h3 {
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .text-center h1 {
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .text-center p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,19 @@
+.partners .content {
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.partners {
+    background-image: url(../img/bg-partners.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+
+.partners a {
+    display: block;
+    margin: 40px;
+}

@@ -1,0 +1,61 @@
+.mobile-devices .content {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.img-mobile img {
+    display: block;
+    height: 100%;
+}
+
+.mobile-devices h1 {
+    font-size: 30px;
+    color: #555555;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.mobile-devices p {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+
+.mobile-devices li {
+    font-size: 16px;
+    color: #8c8c8c;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    list-style: none;
+}
+
+.mobile-devices article {
+    text-align: left;
+}
+
+.mobile-devices li>img {
+    margin: 10px 20px -6px 0;
+}
+
+@media screen and (max-width: 970px) {
+    .img-mobile {
+    order: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .mobile-devices .content {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .img-mobile img {
+        width: 100%;
+    }
+}

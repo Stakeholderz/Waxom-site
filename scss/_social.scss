@@ -1,0 +1,252 @@
+.social {
+    background: #191919;
+    min-height: 455px;
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.logo-wrapper h1:hover {
+    color: #c7b299;
+}
+.block-socialone {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.block-socialone h1 {
+    font-size: 34px;
+    color: #ffffff;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin: 10px 0px 10px 0px;
+}
+
+
+.social .content p {
+    color: #555555;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.block-socialone a {
+    color: #ffffff;
+    line-height: 20px;
+    font-size: 14px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 0px 0px 0px;
+}
+.block-socialtwo h1 {
+    font-size: 24px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.block-socialthree h1 {
+    font-size: 24px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+
+
+
+.block-socialtwo, .block-socialthree span {
+    color: #363636;
+    font-size: 12px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.social .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-socialtwo {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+}
+
+.block-socialthree {
+    display: flex;
+    flex-direction: column;
+    max-width: 281px;
+}
+
+.block-socialfour {
+    display: flex;
+    flex-direction: column;
+    max-width: 280px;
+}
+.block-socialfour h1 {
+    font-size: 24px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #ffffff;
+    padding-left: 2px;
+}
+
+.social-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.social-img img {
+    padding: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+.social-img img:nth-child(2n) {
+    padding: 0px 0px 10px 0px;
+}
+.first-social, .second-social, .third-social {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #252525;
+}
+
+.block-socialtwo span {
+    margin: 20px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.block-socialtwo p {
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.third-social {
+    border: none;
+   
+}
+.block-socialthree .third-social {
+    display: block;
+}
+.block-socialthree span {
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+    
+}
+
+.block-socialthree p {
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+.block-socialthree a {
+    color: #03a7d4;
+    text-decoration: none;
+}
+.block-socialthree .third-social a {
+    color: #959595;
+    text-decoration: none;
+}
+
+.block-socialthree .third-social a:hover {
+    color: #c1c1c1;
+
+}
+.block-socialtwo .first-social:hover p {
+    color: #c7b299;
+}
+
+.block-socialtwo .first-social:hover span {
+    color: #ffffff;
+}
+
+.block-socialtwo .second-social:hover p {
+    color: #c7b299;
+}
+
+.block-socialtwo .second-social:hover span {
+    color: #ffffff;
+}
+.block-socialtwo .third-social:hover p {
+    color: #c7b299;
+}
+
+.block-socialtwo .third-social:hover span {
+    color: #ffffff;
+}
+
+.soc-descr {
+    display: flex;
+    align-items: center;
+    width: max-content;
+}
+.block-socialone i {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 12px 0px 0px 8px;
+    cursor: pointer;
+}
+
+.soc-descr:hover i {
+    color: #c7b299;
+}
+
+.soc-descr:hover a {
+    color: #c7b299;
+}
+
+
+@media screen and (max-width:1200px) {
+    .social .content {
+        justify-content: space-around;
+        flex-wrap: wrap
+    }
+}
+@media screen and (max-width: 1096px) {
+    .block-socialtwo {
+        padding: 0px 10px 0px 0px;
+    }
+}
+
+
+@media screen and (max-width:1140px) {
+    .block-socialfour {
+        padding: 0px 0px 80px 0px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .block-socialthree {
+        padding: 0px 0px 0px 10px;
+    }
+} 
+@media screen and (max-width:860px) {
+    .block-socialthree {
+        padding: 0px;
+    }
+} 
+
+@media screen and (max-width: 600px) {
+    .block-socialone, .block-socialtwo {
+        max-width: 530px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .block-socialone, .block-socialtwo, .block-socialthree {
+        padding: 0px 0px 50px 0px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .block-socialthree, .block-socialfour {
+        max-width: 530px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .block-socialfour .social-img img {
+        width: 48%;
+    }
+}
+

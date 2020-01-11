@@ -1,0 +1,148 @@
+.text-boxes {
+    width: 100%;
+    min-height: 150px;
+    background: linear-gradient(90deg, #211b19, #4e3427 );
+    display: flex;
+    justify-content: center;
+}
+
+.boxes-wrap {
+    
+    display: flex; 
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: column;
+}
+
+.boxes-wrap h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin: 0px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.boxes-wrap p {
+    color: #615855;
+    font-size: 18px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin: 0px;
+    line-height: 1.5;
+}
+
+.boxes-wrap span {
+    color: #b7a48d;
+}
+
+.text-boxes button {
+    padding: 18px 28px;
+    background: #998675;
+    color: #ffffff;    
+    font-size: 14px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text-boxes button:hover {
+    background: #665546;
+    cursor: pointer;
+}
+
+.button-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.more-wrap {
+    display: flex;
+    width: 61%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.morewrap-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1540px) {
+    .boxes-wrap h1 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:1540px) {
+    .boxes-wrap p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .boxes-wrap h1 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    .boxes-wrap h1 {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:1190px) {
+    .boxes-wrap p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 920px) and (max-width: 1090px) {
+    .boxes-wrap h1 {
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 920px) and (max-width: 1200px) {
+    .text-boxes button {
+        padding: 14px 24px;
+        font-size: 12px;
+    }
+}
+
+@media screen and(max-width:975px) {
+    .boxes-wrap h1 {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .text-boxes button {
+        padding: 12px 22px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .boxes-wrap {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .morewrap-wrapper, .boxes-wrap {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .more-wrap {
+        width: 100%;
+        align-items: initial;
+    }
+}

@@ -1,0 +1,78 @@
+// Ширина блока
+@import 'footer';
+@import 'social';
+@import 'partners';
+@import 'recent-post';
+@import 'counters';
+@import 'mobile-devices';
+@import 'video-present';
+@import 'portfolio';
+@import 'text-boxes';
+@import 'half-block';
+@import 'main';
+@import 'swiper';
+@import 'middle';
+@import 'container';
+@import 'head';
+$widthmax: 100%;
+$widthstand: 80%;
+$fontpx: 14px;
+$fontcol: white;
+$fontsizem: 36px;
+$fontsizemax: 52px;
+$fontsizemin: 16px;
+$fontfamiy: 'Montserrat' sans-serif;
+.fa-pen:before {
+    content: "\f304";
+}
+.header {
+    display: flex;
+    width: $widthmax;
+    background: url(../img/bg-photo1.png);
+    height: 100vh;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.more-text a {
+    color: $fontcol;
+    text-decoration: none;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+.more-text a:hover {
+    color: #c7b299;
+}
+
+i.fa {
+    color: $fontcol;
+    font-size: 24px;
+    cursor: pointer;
+}
+i.fas :not(.work-link) {
+    color: #555555;
+    font-size: 32px;
+}
+i:hover {
+    color: #c7b299;
+}
+
+.content {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+section {
+    padding: 45px 0px 0px;
+}
+
+article {
+    width: 100%;
+    max-width: 765px;
+    padding: 0 5px;
+    margin: 0 auto;
+    text-align: center;
+}

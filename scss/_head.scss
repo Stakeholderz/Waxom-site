@@ -1,0 +1,90 @@
+// Шапка сайта
+.header .content {
+    display: flex;
+    height: 95px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.more-text {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    width: 635px;
+    padding: 0;
+    margin-right: 35px;
+}
+.content .menu-ul {
+    display: flex;
+    justify-content: space-around;
+}
+.menu-ul li {
+    font-size: 14px;
+}
+.logo {
+    display: flex;
+    cursor: pointer;
+}
+
+.logo-cont a {
+    font-size: 34px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logo-cont a:hover {
+    color: #c7b299;
+}
+
+.logo-cont h3 {
+    margin: 0px;
+}
+
+.icon-cont {
+    display: flex;
+    align-items: center;
+    width: 71px;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .more-text {
+        display: none;
+    }
+}
+.fa-bars {
+    display: none;
+
+} 
+
+@media screen and (max-width: 1200px) {
+    .fa-bars {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header .content {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .icon-cont {
+        width: 100px;
+        margin-left: 0px;
+    }
+}
+
+.fa-bars {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+.fa-bars:hover {
+    color: #c7b299;
+}
+

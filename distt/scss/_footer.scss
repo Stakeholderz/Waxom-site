@@ -1,0 +1,103 @@
+footer {
+    background: #111111;
+}
+footer li a {
+    text-decoration: none;
+    color: #373737;
+}
+footer .content {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-menu-one {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu-one li {
+    color: #373737;
+    font-size: 13px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-menu-one .wax {
+    color: #959595;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.footer-menu-one .wax:hover {
+    color: #c7b299;
+}
+footer ul li {
+    border-right: 1px solid #252525;
+}
+footer ul li:nth-child(4) {
+    border-right: none;
+}
+footer ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-menu-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-two li {
+    color: #373737;
+    font-size: 13px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer .border-none {
+    border-right: none;
+}
+.footer-menu-two a {
+    color: #959595;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+footer li a:hover {
+    color: #c7b299;
+}
+
+@media screen and (max-width: 830px) {
+    footer .content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:830px) {
+    footer ul {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width:830px) {
+    .footer-menu-one, .footer-menu-two {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .footer-menu-one li, .footer-menu-two li {
+        padding: 10px 10px;
+        border: none;
+        border-bottom: 1px solid #252525;
+    }
+}
