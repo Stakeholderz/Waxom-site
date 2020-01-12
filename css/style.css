@@ -1833,6 +1833,7 @@ button:focus {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
 }
 
 .more-text a {
