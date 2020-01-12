@@ -707,6 +707,14 @@ footer li a:hover {
   }
 }
 
+@media screen and (max-width: 547px) {
+  .block-visible {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 73%;
+  }
+}
+
 .counters {
   background: -webkit-gradient(linear, left top, right top, from(#211b19), to(#4e3427));
   background: linear-gradient(90deg, #211b19, #4e3427);
@@ -1115,6 +1123,24 @@ div.work:hover .deskr-work p {
   cursor: pointer;
 }
 
+@media screen and (max-width: 320px) {
+  .work-link {
+    height: 97.7%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .controls-button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .text-boxes {
   width: 100%;
   min-height: 150px;
@@ -1292,6 +1318,12 @@ div.work:hover .deskr-work p {
     -webkit-box-align: initial;
         -ms-flex-align: initial;
             align-items: initial;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .more-wrap {
+    text-align: center;
   }
 }
 
@@ -1612,6 +1644,24 @@ button:focus {
 @media screen and (max-width: 530px) {
   .text-center p {
     font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wax-a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .text-center h3 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .text-center h1 {
+    font-size: 32px;
   }
 }
 

@@ -215,3 +215,12 @@
         margin: 0px 15px 110px;
     }
 }
+
+@media screen and (max-width:547px) {
+    .block-visible {
+        flex-wrap: wrap;
+        width: 73%;
+        
+    }
+}
+

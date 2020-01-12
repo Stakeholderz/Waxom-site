@@ -164,3 +164,16 @@ div.work:hover .deskr-work p {
     background: #665546;
     cursor: pointer;
 }
+
+@media screen and (max-width:320px) {
+    .work-link {
+        height: 97.7%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .controls-button {
+        flex-direction: column;
+        align-items: center;
+    }
+}

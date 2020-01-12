@@ -146,3 +146,9 @@
         align-items: initial;
     }
 }
+
+@media screen and (max-width:320px) {
+    .more-wrap {
+        text-align: center;
+    }
+}
